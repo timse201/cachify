@@ -101,6 +101,23 @@ A complete documentation is available in the [GitHub repository Wiki](https://gi
 
 ## Changelog ##
 
+## 2.3.0 ##
+* New: WP-CLI integration
+* New: `cachify_flush_cache_hooks` filter added to modify all hooks that flush the cache
+* New: Flush cache when a user is created / updated / deleted
+* New: Flush cache when a term is created / updated / deleted
+* New: Cache behavior after post modification is now configurable in plugin settings
+* Enhance: Cache exceptions/User-Agents translation
+* Enhance: Readme FAQ
+* Enhance: sizeable exclusion boxes + placeholder
+* Enhance: FAQ and Support links
+* Enhance: Add text caption to "flush cache" button
+* Enhance: Icon font converted to SVG
+* Enhance: Improved HDD cache invalidation for hierarchical post types
+* Enhance: Unified and shortened HTML signature across all caching methods
+* Security: Tabnabbing prevention
+* Maintenance: Tested up to WordPress 5.4
+
 ### 2.2.4 ###
 * Fixes caching for mixed HTTPS and HTTP setups
 * Fixes an issue with the icon styling in the admin toolbar
